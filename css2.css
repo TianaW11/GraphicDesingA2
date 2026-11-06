@@ -8,7 +8,7 @@ h1{
    font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   line-height: 80px;
-  font-weight: 400; 
+  font-weight: 800; 
    font-size: 70px;
    top: 10%; 
    left: 9.5%;
@@ -18,7 +18,7 @@ h1{
 
 .Homepage{
     position: absolute;
-    bottom: -150%;
+    bottom: -165%;
     padding: 10px;
     background-color: #fa9a0a;
     text-decoration: none;
@@ -30,13 +30,7 @@ h1{
     background-color: #3d7b06;
 }
 
-.header{
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 40%; 
-   left: 10%;
-   padding: 50px;
-}
+
 .MediaPost{
     width: 400px;
     position: absolute;
@@ -48,4 +42,12 @@ h1{
     position: absolute;
     left: 50%;
     top: 150%;
+}
+.textbox{
+     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40%; 
+   left: 10%;
+   width: 500px; 
+   color: #306204;
 }
