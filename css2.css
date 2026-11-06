@@ -1,0 +1,51 @@
+body{
+    background-color: #d3fffe;
+    min-height: 250vh;
+    cursor: url('visuals/LEAFcursor.png') 16 16, pointer; 
+    overflow-x: hidden;
+}
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 80px;
+  font-weight: 400; 
+   font-size: 70px;
+   top: 10%; 
+   left: 9.5%;
+   position: absolute;
+   color: #fa9a0a;
+}
+
+.Homepage{
+    position: absolute;
+    bottom: -150%;
+    padding: 10px;
+    background-color: #fa9a0a;
+    text-decoration: none;
+    color: #d3fffe;
+
+}
+.Homepage:hover, .Homepage:active{
+    color: #d3fffe;
+    background-color: #3d7b06;
+}
+
+.header{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40%; 
+   left: 10%;
+   padding: 50px;
+}
+.MediaPost{
+    width: 400px;
+    position: absolute;
+    left: 60%;
+    top: 25%; 
+}
+.Event{
+     width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+}

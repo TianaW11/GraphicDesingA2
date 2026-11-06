@@ -1,0 +1,235 @@
+
+
+body{
+    min-height: 300vh;
+background: #a1e4ff;
+background: linear-gradient(0deg, rgba(161, 228, 255, 1) 0%, rgba(246, 255, 150, 1) 100%, rgba(255, 201, 201, 1) 100%);
+    overflow-x: hidden;
+    cursor: url('visuals/LEAFcursor.png') 16 16, pointer; 
+}
+h1{
+    width: 37%;
+   font-family: 'Parkinsans';
+  font-style: normal;
+  line-height: 80px;
+  font-weight: 400; 
+   font-size: 40px;
+   top: -2%; 
+   position: absolute;
+   color: #fa9a0a;
+
+}
+.h12{
+     width: 37%;
+   font-family: 'Parkinsans';
+  font-style: normal;
+  line-height: 40px;
+  font-weight: 400; 
+   font-size: 40px;
+   top: 5.5%; 
+   left: 5.4%; 
+   position: absolute;
+   color: #fa9a0a;
+}
+
+.Parks{
+     width: 37%;
+ font-family: "Bricolage Grotesque", sans-serif;
+    line-height: 120px;
+  font-style: normal;
+  font-weight: 300; 
+   font-size: 130px;
+   top: 25%; 
+   position: absolute;
+   color: #5baf11;
+
+}
+h3{
+    width: 37%;
+    left: 10.3%;
+    font-family: 'Parkinsans';
+    line-height: 80px;
+  font-style: normal;
+  font-weight: 800; 
+   font-size: 80px;
+   top: 23%; 
+   position: absolute;
+   color: #5baf11;
+}
+.Now{
+     width: 37%;
+     left: 8%;
+    font-family: 'Parkinsans';
+    line-height: 80px;
+  font-style: normal;
+  font-weight: 300; 
+   font-size: 200px;
+   top: 62%; 
+   position: absolute;
+   color: #fa9a0a;
+}
+
+h2{
+    width: 290px; 
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   position: absolute;
+   top: 104%;
+   right: 70%;
+   color: #3d7b06;
+   text-align: right;
+}
+.report{
+    position: absolute;
+    bottom: -200%;
+    padding: 10px; 
+    background-color: #3d7b06;
+    text-decoration: none;
+    color: #a1e4ff;
+}
+.report:hover, .report:active{
+    background-color: #fa9a0a;
+}
+
+.textbox{
+    width: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #3d7b06;
+    position: absolute;
+    left: 69%; 
+    top: 106%;
+}
+.textbox2{
+    width: 275px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #3d7b06;
+    position: absolute;
+    right: 73%;
+    top: 120%;
+    text-align: right;
+}
+
+.seeds1{
+    position: absolute;
+    top: 130%;
+    left: 56%;
+    width: 750px;
+    transform: rotate(-20deg);
+}
+.seeds2{
+     position: absolute;
+    top: 175%;
+    left: -12%;
+    width: 900px;
+    transform: rotate(-20deg);
+}
+
+
+.pot{
+    position: absolute;
+    top: 240%; 
+    left: 32.5%;
+    height: 500px;
+    z-index: -2;
+}
+.video-player-wrapper{ 
+    display: flex;
+    overflow: hidden;
+    justify-content: right;
+    cursor: url('visuals/LEAFcursor.png') 0 0, auto;
+
+}
+.video-player-wrapper video{
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: url('visuals/LEAFcursor.png') 0 0, auto;
+}
+.PotData{
+    position: absolute;
+    width: 300px;
+    top: 270%; 
+    left: 68%;
+}
+.Lines{
+    position: absolute;
+    width: 90px;
+    top: 262%; 
+    left: 62%;
+}
+.link{
+    position: absolute;
+    right: 2%;
+    bottom: -193%;
+    color: #3d7b06;
+}
+.link2{
+    position: absolute;
+    right: 2%;
+    bottom: -196%;
+    color: #3d7b06;
+}
+.link3{
+    position: absolute;
+    right: 2%;
+    bottom: -199%;
+    color: #3d7b06;
+}
+
+.plant-container {
+    position: absolute;
+    top: 34%; 
+    left: 25%;
+    height: 1750px;
+    width: 500px; 
+    z-index: -1;
+}
+
+
+.Plant {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    animation-timeline: scroll(root);
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+.frame-1 {
+    animation-name: fadeOutEarly;
+}
+
+.frame-2 {
+    animation-name: fadeInOutMid;
+}
+
+
+.frame-3 {
+    animation-name: fadeInLate;
+}
+
+
+@keyframes fadeOutEarly {
+    0% { opacity: 1; transform: translateY(0); }
+    10% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 0; transform: translateY(30px); }
+}
+
+@keyframes fadeInOutMid {
+    0% { opacity: 0; transform: translateY(0); }
+    10% { opacity: 1; transform: translateY(30px); }
+    20% { opacity: 1; transform: translateY(60px); }
+    100% { opacity: 0; transform: translateY(60px); }
+}
+
+@keyframes fadeInLate {
+    0% { opacity: 0; transform: translateY(30px); }
+    20% { opacity: 1; transform: translateY(60px); }
+    100% { opacity: 1; transform: translateY(60px); }
+}
